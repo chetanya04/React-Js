@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.Header{
+    display: flex;
+    /* min-height: 85vh; */
+}
+.iconsHome{
+    color: white;
+    margin-bottom: 50px;
+    position: absolute;
+    top: 30px;
+    right: 458px;
+}
+.iconsAbout{
+    color: white;
+    margin-bottom: 50px;
+    position: absolute;
+    top: 31px;
+    right: 337px;
+}
+.iconsCall{
+    color: white;
+    margin-bottom: 50px;
+    position: absolute;
+    top: 31px;
+    right: 215px;
+}
+h1{
+    display: flex;
+    color:antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 45px;
+    margin-top: 30px;
+    cursor: pointer;
+    position: relative;
+    margin-left: 97px;
+    height: 9vh;
+}
+h1::after{
+    content: "";
+    top: 60px;
+    height: 4px;
+    border-radius: 5px;
+    width: 100%;
+    left: 0px;
+    background-color: #4070f4;
+    position: absolute;
+    transition: 0.3s ease-in-out;
+    transform: scaleX(0);
+}
+h1:hover::after{
+    transform: scaleX(1);
+}
+nav a:before{
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    height: 4px;
+    width: 0px;
+    background: #4070f4;
+    border-radius: 50px;
+    transition: width 0.3s ease-in-out;
+}
+nav a:hover::before{
+    width: 65px;
+}
+nav a{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    margin: 30px;
+    text-decoration: none;
+    color: white;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    margin-left:851px;
+    font-size: 24px;        
+}
+
+

@@ -1,0 +1,31 @@
+.footer h2{
+    display: flex;
+    justify-content: center;
+    font-size: 31px;
+    color: white;
+    margin-left: 87px;
+    cursor:pointer;
+    margin-top: 98px;
+}
+.Copyright{
+    color: white;
+    font-size: 31px;
+    position: absolute;
+    left: 650px;
+    bottom: 41px;
+    cursor:pointer;
+}
+
+.footer h2::after{
+    content: "";
+    position: absolute;
+    width: 23%;
+    height: 5px;
+    background-color: rgb(25, 25, 172);
+    bottom: 27px;
+    transform: translateY(3px);
+    transition: transform 0.3s ease;
+}
+.footer h2:hover::after{
+    transform: translateY(0);
+}

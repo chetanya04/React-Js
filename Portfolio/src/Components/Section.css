@@ -1,0 +1,45 @@
+.main h2{
+    color: #00b6c1;
+    position: relative;
+    top: 15vh;
+    font-size: 50px;
+    left: 98px;
+}
+
+.Img1 img{
+    width: 10vw;
+    margin-top: 2vh;
+    margin-left: 2vw;
+}
+.Img2 img{
+    width: 10vw;
+    margin-top: 120px;
+    margin-left:4vw;
+}
+.Img3 img{
+    width: 13vw;
+    margin-bottom: 25px;
+    margin-left: 6vw;
+}
+
+a img{
+    box-shadow: 0 0 10px black  ;
+    -webkit-transition-property: box-shadow , transform;
+    transition-property: box-shadow, transform;
+}
+a img:hover, a img:focus, a img:active{
+    box-shadow: 0 0 5px blue;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.Img4 img{
+    width: 19vw;
+    margin-left: 25vw;
+    margin-top: 2vw;
+    border-radius: 50%;
+    border: 12px solid;
+}
+
+
+
+    
